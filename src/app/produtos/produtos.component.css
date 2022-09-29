@@ -62,3 +62,17 @@
     filter: brightness(1.1);
     cursor: pointer;
 }
+
+a {
+    width: 250px;
+}
+
+h2, p {
+    width: 100%;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+button {
+    display: flex;
+}

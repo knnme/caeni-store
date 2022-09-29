@@ -21,12 +21,19 @@ ul, li {
 	list-style: none;
 }
 
+input {
+    height: 2rem;
+    font-size: 1rem;
+}
+
 input:focus, textarea:focus, select:focus {
 	border: 1px solid rgba(0, 74, 124, 0.6);
 	outline: none;
 }
 textarea {
 	resize: none;
+    height: 5rem;
+    font-size: 1rem;
 }
 .error-message {
     color: red;
